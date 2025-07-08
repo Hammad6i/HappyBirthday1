@@ -79,3 +79,14 @@ button:hover {
   pointer-events: none;
   z-index: 1;
 }
+.footer-credit {
+  position: fixed;
+  bottom: 10px;     /* 10px from bottom */
+  right: 10px;      /* 10px from right side */
+  font-size: 14px;
+  color: #999;
+  font-family: 'Segoe UI', sans-serif;
+  user-select: none;   /* text select na ho */
+  opacity: 0.7;
+  z-index: 1000;    /* sabke upar dikhe */
+}
